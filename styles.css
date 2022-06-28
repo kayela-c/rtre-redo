@@ -71,6 +71,7 @@ section {
 .flex-container {
     display: flex;
     background-color: pink;
+    flex-direction: column;
 }
 
 .bg-img {
