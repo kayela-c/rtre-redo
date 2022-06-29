@@ -36,7 +36,7 @@ body {
 img,
 picture {
   max-width: 100%;
-  display: block;
+  
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -63,28 +63,3 @@ select {
   }
 }
 
-section {
-    /* padding: 5rem; */
-    background-color: aquamarine;
-}
-
-.flex-container {
-    display: flex;
-    background-color: pink;
-    flex-direction: column;
-}
-
-.bg-img {
-    
-    background-image: url(/img/bird-s-eye-view-of-three-houses-1546166.jpg);
-    color: white;
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-    background-color: black;
-   padding: 20rem; 
-}
-
-.bg-img img {
-opacity: .5;
-}
