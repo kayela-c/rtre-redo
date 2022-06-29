@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/yourcode.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Rock The Real Estate</title>
   </head>
   <body>
@@ -26,8 +30,8 @@
         </nav>
       </div>
       <div id="content">
-        <div id="">
-          <h1 class="hero-header">
+        <div id="hero-container">
+          <h1 id="hero-header">
             The Roadmap To Get you Started in Real Estate
           </h1>
           <p>
@@ -65,7 +69,8 @@
             </form>
           </div>
         </div>
-        <div id="benefits-block">
+        <div id="benefits">
+          <!-- will have 3 benifit cards here-->
           <h2>Learn and Succeed in Real Estate Investing</h2>
           <p>
             Many people are interested in real estate but have no clue how or
@@ -75,18 +80,46 @@
             but will be adding courses, e-books, mentoring services and a
             proprietary starter kit in the near future.
           </p>
-          <!-- will have 3 benifit cards here-->
-          <button>Learn More</button>
         </div>
-        <div id="tools-col1">
-          <h3>Tools to help you in your journey</h3>
-          <p>Use our offer calculator to see if you have a deal</p>
-          <button>Learn More</button>
+        <section id="info-card-block">
+          <div class="info-card">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate ducimus unde quibusdam dolor at perferendis, atque aut
+              qui sint dolorum beatae eveniet.
+            </p>
+            <i class="fas fa-cat"></i>
+          </div>
+          <div class="info-card">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate ducimus unde quibusdam dolor at perferendis, atque aut
+              qui sint dolorum beatae eveniet.
+            </p>
+            <i class="fas fa-cat"></i>
+          </div>
+          <div class="info-card">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate ducimus unde quibusdam dolor at perferendis, atque aut
+              qui sint dolorum beatae eveniet.
+              <i class="fas fa-cat"></i>
+            </p>
+          </div>
+        </section>
+        <button class="btn" id="btn-benefits">Learn More</button>
+        <div id="tool-col">
+          <div id="tool-col1">
+            <h3>Tools to help you in your journey</h3>
+            <p>Use our offer calculator to see if you have a deal</p>
+            <button>Learn More</button>
+          </div>
+          <div id="tool-col2">
+            <img src="/img/Screen Shot 2022-06-24 at 8.30.00 PM.png" alt="" />
+          </div>
         </div>
-        <div id="tools-col2">
-          <img src="/img/Screen Shot 2022-06-24 at 8.30.00 PM.png" alt="" />
-        </div>
-        <div id="news-signup-form">
+
+        <div id="news-form-container">
           <div class="form-bg">
             <form action="">
               <div class="form-group">
@@ -140,13 +173,13 @@
           </p>
           <div id="bio-section">
             <h2>Our Team</h2>
-            <div class="flex-container bio">
+            <div class="flex-cont bio" id="lena-bio">
               <img src="#" alt="" />
               <aside></aside>
               <h3 class="bio-name">Lena Claybon</h3>
               <h3 class="bio-title">Founder / Ceo</h3>
             </div>
-            <div class="flex-container bio">
+            <div class="flex-cont bio" id="kayela-bio">
               <img src="#" alt="" />
               <aside></aside>
               <h3 class="bio-name">Kayela Ceron</h3>
@@ -154,7 +187,7 @@
                 Senior Partner / Head of Marketing & Distibution
               </h3>
             </div>
-            <div class="flex-container bio">
+            <div class="flex-cont bio" id="jill-bio">
               <img src="#" alt="" />
               <aside></aside>
               <h3 class="bio-name">Jill Jackson-Jenkins</h3>
@@ -165,7 +198,6 @@
         </div>
       </div>
       <div id="footer"></div>
-
       <!-- <footer></footer> -->
     </div>
   </body>

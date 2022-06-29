@@ -62,4 +62,125 @@ select {
     scroll-behavior: auto !important;
   }
 }
+/* Typography */
 
+* {
+  font-family: sans-serif;
+}
+
+
+
+.btn {
+  /* display: inline-block; */
+  /* margin: auto; */
+  text-align: center;
+  background-color: red;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 1rem 10rem;
+border-radius: 15px;
+
+}
+
+.btn:hover {
+background-color: black;
+}
+
+#content {
+  background-color: lightcoral;
+ justify-items: center;
+}
+
+/* #wrapper {} */
+
+
+#banner {
+  background-color: chartreuse;
+}
+
+#nav {
+  background-color: coral;
+  
+  
+}
+
+#form-container {
+  background-color: cornsilk;
+}
+
+#footer {
+background-color: blueviolet;
+}
+
+#benefits {
+  width: auto;
+  padding: 2em 10em;
+}
+
+#info-card-block {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 10em;
+  flex-wrap: wrap;
+ 
+}
+
+.info-card {
+  
+  background-color: lightseagreen;
+  margin: 3em .5em;
+  width: 400px;
+  height: 400px;
+  padding: 3.5em;
+  border-radius: 15px;
+  padding-top: 6.5em;
+  text-align: justify;
+  
+
+}
+
+#hero-container {
+  background-color: lawngreen;
+}
+
+#signup-form-bg {
+  background-color: lightskyblue;
+}
+#tool-col {
+  display: flex;
+  justify-content: space-evenly;
+}
+#tool-col1 {
+  background-color: lightgrey;
+  flex-basis: content;
+}
+
+#tool-col2 {
+  background-color: yellowgreen;
+  flex-basis: content;
+}
+
+#news-form-container {
+  background-color: lightpink;
+}
+
+#about-us {
+background-color: yellow;
+}
+
+#bio-section {
+  background-color: blue;
+}
+
+/* .bio {} */
+
+/* .flex-cont {} */
+
+/* .lena-bio {} */
+
+/* .kayela-bio */
+
+/* .jill-bio */
