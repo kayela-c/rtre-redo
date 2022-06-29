@@ -95,6 +95,12 @@ border-radius: 15px;
 background-color: black;
 }
 
+i {
+  display: block;
+  font-size: 3rem;
+  margin: auto;
+}
+
 #content {
   background-color: lightcoral;
  justify-items: center;
