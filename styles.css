@@ -68,7 +68,14 @@ select {
   font-family: sans-serif;
 }
 
+#wrapper {
 
+  padding: 2em 2em;
+}
+
+.-debug {
+  color: red;
+}
 
 .btn {
   /* display: inline-block; */
@@ -91,6 +98,7 @@ background-color: black;
 #content {
   background-color: lightcoral;
  justify-items: center;
+ 
 }
 
 /* #wrapper {} */
@@ -115,15 +123,15 @@ background-color: blueviolet;
 }
 
 #benefits {
-  width: auto;
-  padding: 2em 10em;
+margin: inherit;
+
+  
 }
 
 #info-card-block {
   background-color: aquamarine;
   display: flex;
   justify-content: space-evenly;
-  margin: 0 10em;
   flex-wrap: wrap;
  
 }
