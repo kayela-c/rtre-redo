@@ -1,4 +1,4 @@
 
-function showDate() {
-  document.getElementById("demo").innerHTML = Date();
+function myFunction() {
+  document.getElementById("demo").innerHTML = "0";
 }
