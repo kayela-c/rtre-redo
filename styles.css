@@ -68,27 +68,48 @@ select {
   font-family: sans-serif;
 }
 
-#wrapper {
+.flex {
+  display: flex;
+}
+nav {
+  background-color: aquamarine;
+  color: #333;
+  align-items: center;
+  float: left;
+  justify-content: space-evenly;
+  padding-right: 1rem;
+}
 
+nav ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+nav li {
+  margin: 10px 5px;
+}
+
+#wrapper {
+  flex-direction: column;
   padding: 2em 2em;
 }
 
-.-debug {
-  color: red;
+.logo {
+  height: 50px;
 }
 
 .btn {
-  /* display: inline-block; */
-  /* margin: auto; */
+  margin: auto;
   text-align: center;
   background-color: red;
   border: none;
   color: white;
   text-decoration: none;
   font-size: 1.5rem;
-  padding: 1rem 10rem;
-border-radius: 15px;
-
+  border-radius: 15px;
+  line-height: 2.5;
+  width: 250px;
+  margin: 2rem;
 }
 
 .btn:hover {
@@ -101,11 +122,6 @@ i {
   margin: auto;
 }
 
-#content {
-  background-color: lightcoral;
- justify-items: center;
- 
-}
 
 /* #wrapper {} */
 
@@ -120,18 +136,59 @@ i {
   
 }
 
-#form-container {
-  background-color: cornsilk;
-}
 
 #footer {
-background-color: blueviolet;
+  background-color: blueviolet;
 }
 
-#benefits {
-margin: inherit;
+/* Hero Section */
 
-  
+#hero-container {
+  background: 
+  #fff
+  url("/img/bird-s-eye-view-of-three-houses-1546166.jpg")
+  no-repeat
+  fixed;
+  /* shorthand is color, image, repet, and position */
+  color: white;
+  height: 500px;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+/* #hero-block {
+   align-items: center; 
+} */
+
+#hero-text {
+  padding: 5rem 5rem;
+  /* flex-basis: ; */
+}
+
+#form-container {
+  background-color: lightblue;
+}
+
+#signup-form-bg {
+  background-color: lightskyblue;
+}
+
+
+/* Benefits Section */
+#benefits {
+flex-direction: column; 
+height: 1000px; 
+}
+
+#benefits-txt {
+  text-align: center;
+  padding: 7rem 8rem;
+}
+
+#benefits-txt 
+h1, 
+p {
+  margin: 2rem 0;
 }
 
 #info-card-block {
@@ -139,7 +196,7 @@ margin: inherit;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
- 
+  
 }
 
 .info-card {
@@ -153,17 +210,23 @@ margin: inherit;
   padding-top: 6.5em;
   text-align: justify;
   
-
+  
 }
 
-#hero-container {
-  background-color: lawngreen;
-}
 
-#signup-form-bg {
-  background-color: lightskyblue;
-}
+/* tools info section */
+
 #tool-col {
+  background: 
+  #fff
+  url("/img/bird-s-eye-view-of-three-houses-1546166.jpg")
+  no-repeat
+  fixed;
+  /* shorthand is color, image, repet, and position */
+  color: white;
+  height: 500px;
+  align-items: center;
+  flex-wrap: nowrap;
   display: flex;
   justify-content: space-evenly;
 }
@@ -177,14 +240,20 @@ margin: inherit;
   flex-basis: content;
 }
 
+
+
+/*  Newsletter form */
 #news-form-container {
   background-color: lightpink;
 }
+
+/* about us form */
 
 #about-us {
 background-color: yellow;
 }
 
+/* bio section */
 #bio-section {
   background-color: blue;
 }

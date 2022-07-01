@@ -13,15 +13,13 @@
   </head>
   <body>
     <!-- Wrapper of all web content -->
-    <div id="wrapper">
-      <span class="-debug"> wrapper </span> 
+    <div id="wrapper" class="flex">
       <div id="banner"></div>
-      <span class="-debug">banner</span>
-      <div id="nav">
-        <span class="-debug">nav</span>
+      <div id="nav-container">
         <!-- Navbar -->
-        <nav>
-          <ul class="nav-list">
+        <nav class="flex">
+          <img class="logo" src="img/rtre-logo3.png" alt="">
+          <ul class="nav-list flex">
             <li class="nav-link">
               <a href="" class="a-nav-link"></a>Knowledge Base
             </li>
@@ -33,103 +31,103 @@
             </li>
           </ul>
         </nav>
+        <!-- Search and Profile button -->
+        <div id="search"></div>
       </div>
-      <div id="content">
-        <span class="-debug">content</span>
+      <section id="hero-block">
         <!-- Hero Secton -->
-        <div id="hero-container">
-          <span class="-debug">hero-container</span>
-          <h1 id="hero-header">
-            <span class="-debug">(hero-header)</span> The Roadmap To Get you
-            Started in Real Estate
-          </h1>
-          <p>
-            Our mission is to provide our subscribers with solid and tested
-            information, strategies, and win-win partnerships, that will allow
-            them to <span class="bold-txt">take action</span> and succeed in
-            today's real estate market.
-          </p>
-        </div>
-        <div id="form-container">
-          <span class="-debug">form form-container</span>
-          <div id="signup-form-bg">
-            <span class="-debug"></span> signup-form-bg</div>
-            <form action="">
-              <div class="form-group">
-                <label for="name" id="name-label"
-                  >First Name
-                  <input
-                    name="name"
-                    type="text"
-                    id="name"
-                    placeholder="Enter your name..."
-                    required
-                /></label>
-              </div>
-              <div class="form-group">
-                <label for="email-input" id="email-label"
-                  >Email
-                  <input
-                    name="email"
-                    type="email"
-                    id="email-input"
-                    placeholder="Enter your email..."
-                    required
-                /></label>
-              </div>
-            </form>
+        <div id="hero-container" class="flex">
+          <div id="hero-text">
+            <h1 id="hero-header">
+              The Roadmap To Get you
+              Started in Real Estate
+            </h1>
+            <p>
+              Our mission is to provide our subscribers with solid and tested
+              information, strategies, and win-win partnerships, that will allow
+              them to <span class="bold-txt">take action</span> and succeed in
+              today's real estate market.
+            </p>
+          </div>
+          <div id="form-container">
+            <div id="signup-form-bg">
+              <form action="">
+                <div class="form-group">
+                  <label for="name" id="name-label"
+                    >First Name
+                    <input
+                      name="name"
+                      type="text"
+                      id="name"
+                      placeholder="Enter your name..."
+                      required
+                  /></label>
+                </div>
+                <div class="form-group">
+                  <label for="email-input" id="email-label"
+                    >Email
+                    <input
+                      name="email"
+                      type="email"
+                      id="email-input"
+                      placeholder="Enter your email..."
+                      required
+                  /></label>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
-        <div id="benefits">
-          <span class="-debug">benefits</span>
+      </section>
+        <section id="benefits" class="flex">
+          <div id="benefits-txt">
+            <h2>Learn and Succeed in Real Estate Investing</h2>
+            <p>
+              Many people are interested in real estate but have no clue how or
+              where to begin. Rock The Real Estate is here to solve that dilemma
+              through providing information, tools and resources that speak
+              directly to our audience. We are beginning with a weekly newsletter
+              but will be adding courses, e-books, mentoring services and a
+              proprietary starter kit in the near future.
+            </p>
+          </div>
           <!-- Benifits Sectoin -->
-          <h2>Learn and Succeed in Real Estate Investing</h2>
-          <p>
-            Many people are interested in real estate but have no clue how or
-            where to begin. Rock The Real Estate is here to solve that dilemma
-            through providing information, tools and resources that speak
-            directly to our audience. We are beginning with a weekly newsletter
-            but will be adding courses, e-books, mentoring services and a
-            proprietary starter kit in the near future.
-          </p>
-        </div>
-        <!-- will have 3 benifit cards here-->
-        <section id="info-card-block">
-          
-          <div class="info-card" id="news-card">
-           
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate ducimus unde quibusdam dolor at perferendis, atque aut
-              qui sint dolorum beatae eveniet.
-            </p>
-            <i class="fa-solid fa-laptop"></i>
-          </div>
-          <div class="info-card" id="fb-card">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate ducimus unde quibusdam dolor at perferendis, atque aut
-              qui sint dolorum beatae eveniet.
-            </p>
-            <i class="fa-brands fa-facebook"></i>
-          </div>
-          <div class="info-card" id="ntwk-card">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate ducimus unde quibusdam dolor at perferendis, atque aut
-              qui sint dolorum beatae eveniet.
-              <i class="fa-solid fa-circle-nodes"></i>
-            </p>
+          <div id="info-card-block">
+            
+            <div class="info-card" id="news-card">
+             
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cupiditate ducimus unde quibusdam dolor at perferendis, atque aut
+                qui sint dolorum beatae eveniet.
+              </p>
+              <i class="fa-solid fa-laptop"></i>
+            </div>
+            <div class="info-card" id="fb-card">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cupiditate ducimus unde quibusdam dolor at perferendis, atque aut
+                qui sint dolorum beatae eveniet.
+              </p>
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div class="info-card" id="ntwk-card">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cupiditate ducimus unde quibusdam dolor at perferendis, atque aut
+                qui sint dolorum beatae eveniet.
+                <i class="fa-solid fa-circle-nodes"></i>
+              </p>
+            </div>
           </div>
         </section>
-
-        <button class="btn" id="btn-benefits">Learn More</button>
-        
+        <!-- will have 3 benifit cards here-->
         <div id="tool-col">
           <div id="tool-col1">
             <h3>Tools to help you in your journey</h3>
             <p>Use our offer calculator to see if you have a deal</p>
-            <button>Learn More</button>
+            <div class="btn" id="btn-tools">Learn More
+            </div>
           </div>
           <div id="tool-col2">
             <img src="/img/Screen Shot 2022-06-24 at 8.30.00 PM.png" alt="" />
@@ -214,7 +212,7 @@
           </div>
         </div>
       </div>
-      <div id="footer"></div>
+      <footer id="footer"></footer>
       <!-- <footer></footer> -->
     </div>
     <script src = "js/script.js">
