@@ -154,7 +154,15 @@ i {
   height: 500px;
   align-items: center;
   flex-wrap: nowrap;
+  z-index: -1;
 }
+
+/* #hero-overlay {
+  background-color: black;
+  opacity: .4;
+  height: 500px;
+  z-index: 1;
+} */
 
 /* #hero-block {
    align-items: center; 
@@ -192,7 +200,7 @@ p {
 }
 
 #info-card-block {
-  background-color: aquamarine;
+  background-color: #eee;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -200,8 +208,8 @@ p {
 }
 
 .info-card {
-  
-  background-color: lightseagreen;
+  background-color: #fff;
+
   margin: 3em .5em;
   width: 400px;
   height: 400px;
@@ -245,6 +253,18 @@ p {
 /*  Newsletter form */
 #news-form-container {
   background-color: lightpink;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+#news-form-bg {
+  /* flex? */
+  height: 250px;
+  background-color: white;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
 }
 
 /* about us form */
