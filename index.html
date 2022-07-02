@@ -51,31 +51,70 @@
               today's real estate market.
             </p>
           </div>
-          <div id="hero-form" class="flex">
+
+          <div id="hero-form">
             <div id="signup-form-bg">
-              <form action="">
+              <form action="" id="form-con" class="flex">
                 <div class="form-group">
+                 
                   <label for="name" id="name-label"
-                    >First Name
+                    >Full Name</label>
+
                     <input
                       name="name"
                       type="text"
                       id="name"
                       placeholder="Enter your name..."
-                      required
-                  /></label>
+                      required/>
+
                 </div>
+
                 <div class="form-group">
                   <label for="email-input" id="email-label"
-                    >Email
+                    >Email</label>
+
                     <input
                       name="email"
                       type="email"
                       id="email-input"
                       placeholder="Enter your email..."
-                      required
-                  /></label>
+                      required/>
+
                 </div>
+
+                <div class="form-group">
+                  <label for="password-input" id="password-label"
+                    >Create a Password</label>
+
+                    <input
+                      name="password"
+                      type="password"
+                      id="password-input"
+                      placeholder="Enter your password..."
+                      required/>
+
+                </div>
+                <div>
+                  <p id="signup-p">By signing up, you indicate that you agree to our Terms & Conditions</p>
+                </div>
+                
+                <div class="btn-div">
+                 
+                  <input
+                  name="signup-button"
+                  type="submit"
+                  id="signup-button-input"
+                  value="Sign Up"
+                  class="btn"
+                  required/>
+
+                </div>
+
+                <div>
+                  <p id="log-in-p">Already have an account? <a class="txt-link" href="#">Log in</a></p>
+                </div>
+              
+
               </form>
             </div>
           </div>
