@@ -166,7 +166,7 @@ i {
 }
   
 #hero-container {
-  min-height: 600px;
+  min-height: 900px;
   z-index: 1;
   justify-content: space-around;
   align-items: center;
@@ -183,7 +183,7 @@ justify-content: center;
   background-color: #fff;
   min-width: 375px;
   max-width: 600px;
-  height: 500px;
+  height: auto;
   justify-content: center;
   align-items: center;
 }
@@ -191,17 +191,16 @@ form label {
   display: block;
   margin: 1rem 0;
 }
-/* #signup-form-bg {
-  display: flex;
-  justify-content: center;
-} */
+
+form input {
+  width: 100%;
+}
 
 #form-con {
 align-items: center;
 flex-direction: column;
 padding: 2rem 0;
-background-color: aqua;
-height: 500px;
+height: 600px;
 }
 
 #signup-p {
