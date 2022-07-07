@@ -99,7 +99,7 @@ nav li {
   margin: 10px 5px;
 }
 
-#wrapper {
+.wrapper {
   flex-direction: column;
   padding: 2em 2em;
 }
