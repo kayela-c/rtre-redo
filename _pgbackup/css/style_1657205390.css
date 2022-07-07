@@ -70,14 +70,5 @@
 
 #tools-col {
     display: flex;
-    justify-content: space-around;
-}
-
-#news-form-bg {
-    background: #fff;
-}
-
-#news.form {
-    display: flex;
 }
 
