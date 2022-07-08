@@ -1,3 +1,5 @@
+// ..... Brand colors and fonts......
+
 $red: #d72323;
 $black: #000;
 $white: #fff;
@@ -7,6 +9,15 @@ $light-gray2: #eee;
 $light-gray3: #d1d3cf;
 $dark-gray1: #3a4750;
 $dark-gray2: #303841;
+
+//..... @media Quieries....
+
+$large-desktop: 1300px;
+$desktop: 1000px;
+$tablet: 700px;
+$bg-phone: 400px;
+$phone: 300px;
+
 
 
 ul {
@@ -18,14 +29,18 @@ ul {
         margin-top: 10px;
         display: inline;
         a {
-            background-color: #bbb;
             text-decoration: none;
             padding: 3px;
-            color: #fff;
-            border: 1px solid #222;
+            color: $dark-gray2;
 
             &:hover {
                 background-color: #ddd;
+                color: $red;
+                border: 3px solid $dark-gray2;
+            }
+
+            &:active {
+                border: 3px solid $dark-gray2;
             }
         }
     }
