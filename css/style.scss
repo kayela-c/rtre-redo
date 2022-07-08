@@ -1,0 +1,32 @@
+$red: #d72323;
+$black: #000;
+$white: #fff;
+$gray: #717a80;
+$light-gray1: #f6f6f6;
+$light-gray2: #eee;
+$light-gray3: #d1d3cf;
+$dark-gray1: #3a4750;
+$dark-gray2: #303841;
+
+
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+
+    li {
+        margin-top: 10px;
+        display: inline;
+        a {
+            background-color: #bbb;
+            text-decoration: none;
+            padding: 3px;
+            color: #fff;
+            border: 1px solid #222;
+
+            &:hover {
+                background-color: #ddd;
+            }
+        }
+    }
+}
