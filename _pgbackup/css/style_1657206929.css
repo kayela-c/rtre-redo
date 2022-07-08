@@ -68,7 +68,6 @@
 
 #info-card-block {
     width: 500px;
-    display: grid;
 }
 
 .header {
@@ -90,11 +89,6 @@
 
 #about-us {
     width: 500px;
-}
-
-.info-card {
-    width: 264px;
-    height: 204px;
 }
 
 
