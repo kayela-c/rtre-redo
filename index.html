@@ -33,11 +33,11 @@
         <!-- Search and Profile button -->
         <div id="search"></div>
       </div>
-      <section id="hero-section">
+      <section id="hero-section" class="grid-parent2">
         <!-- Hero Secton -->
         <!-- <div class="div-overlay"></div> -->
-        <div id="text-div">
-          <h1 id="hero-header">
+        <div id="text-container" class="grid-child padding-x margin-t">
+          <h1 id="hero-header" class="margin-b">
             The Roadmap To Get you Started in Real Estate
           </h1>
           <p>
@@ -48,10 +48,10 @@
           </p>
         </div>
 
-        <div id="form-div">
-          <h3 class="h3">Create a free account</h3>
+        <div class="form-container margin-t">
+          <h3 class="h3 textcenter">Create a free account</h3>
           <div id="signup-form-bg">
-            <form action="" id="form-con" class="">
+            <form action="" class="margin-x">
               <div class="form-group">
                 <label for="name" id="name-label">Full Name</label>
 
@@ -119,8 +119,10 @@
       </section>
       <!-- Benefits section -->
       <section id="benefits">
-        <div id="benefits-text">
-          <h2 class="h2">Learn and Succeed in Real Estate Investing</h2>
+        <div id="benefits-text" class="padding-x">
+          <h2 class="h2 padding-t">
+            Learn and Succeed in Real Estate Investing
+          </h2>
           <p class="p">
             Many people are interested in real estate but have no clue how or
             where to begin. Rock The Real Estate is here to solve that dilemma
@@ -132,14 +134,14 @@
         </div>
         <!-- Benifits cards -->
 
-        <div id="info-card-block">
+        <div id="info-card-block" class="grid-parent3">
           <div class="info-card" id="news-card">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Cupiditate ducimus unde quibusdam dolor at perferendis, atque aut
               qui sint dolorum beatae eveniet.
             </p>
-            <i class="fa-solid fa-laptop"></i>
+            <i class="fa-solid fa-laptop icon"></i>
           </div>
           <div class="info-card" id="fb-card">
             <p>
@@ -147,32 +149,22 @@
               Cupiditate ducimus unde quibusdam dolor at perferendis, atque aut
               qui sint dolorum beatae eveniet.
             </p>
-            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-facebook icon"></i>
           </div>
           <div class="info-card" id="ntwk-card">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Cupiditate ducimus unde quibusdam dolor at perferendis, atque aut
               qui sint dolorum beatae eveniet.
-              <i class="fa-solid fa-circle-nodes"></i>
             </p>
+            <i class="fa-solid fa-circle-nodes icon"></i>
           </div>
         </div>
       </section>
-      <!-- Calculator value prop -->
-      <section id="tool-col">
-        <div id="tool-col1">
-          <h3 class="h2">Tools to help you in your journey</h3>
-          <p class="p">Use our offer calculator to see if you have a deal</p>
-          <div class="btn" id="btn-tools">Learn More</div>
-        </div>
-        <div id="tool-col2">
-          <img src="/src/img/Screen Shot 2022-06-24 at 8.30.00 PM.png" alt="" />
-        </div>
-      </section>
+
       <!-- news letter form -->
       <section id="news-form-section">
-        <div class="form-bg" id="news-form-bg">
+        <div class="form-bg padding-x" id="news-form-bg">
           <form action="">
             <div class="form-group">
               <label for="name" id="name-label"
@@ -199,53 +191,66 @@
           </form>
         </div>
       </section>
+      <!-- Calculator value prop -->
+      <section id="tools" class="grid-parent2">
+        <div id="tool-col1">
+          <h3 class="h2">Tools to help you in your journey</h3>
+          <p class="p">Use our offer calculator to see if you have a deal</p>
+          <div class="btn" id="btn-tools">Learn More</div>
+        </div>
+        <div id="tool-col2" class="padding">
+          <img src="/src/img/Screen Shot 2022-06-24 at 8.30.00 PM.png" alt="" />
+        </div>
+      </section>
 
-      <section id="about-us-section">
-        <div id="about-us">
-          <h2 class="h2">About Us</h2>
-
-          <h2 class="h2">
-            Rock The Real Estate Provides The Roadmap To Get You Started In Real
-            Estate
-          </h2>
-          <p class="p">
-            Rock The Real Estate was born out of a desire to help people who are
-            interested in real estate, especially those in underserved
-            communities, find their pathway to success. Many people are
-            interested in real estate but have no clue how or where to begin.
-            Rock The Real Estate is here to solve that dilemma through providing
-            information, tools and resources that speak directly to our
-            audience. We are beginning with a weekly newsletter but will be
-            adding courses, e-books, mentoring services and a proprietary
-            starter kit in the near future.
-          </p>
-          <p class="p">
-            Our mission is to provide our subscribers with solid and tested
-            information, strategies, and win-win partnerships, that will allow
-            them to <span class="bold-txt">take action</span> and succeed in
-            today's real estate market.
-          </p>
+      <!-- About us Section -->
+      <h2 class="h2 textcenter banner margin-y">About Us</h2>
+      <section id="about-us-section" class="padding-x">
+        <div id="about-us-container">
+          <div id="blurb">
+            <h2 class="h2 padding-t">
+              Rock The Real Estate Provides The Roadmap To Get You Started In
+              Real Estate
+            </h2>
+            <p class="p">
+              Rock The Real Estate was born out of a desire to help people who
+              are interested in real estate, especially those in underserved
+              communities, find their pathway to success. Many people are
+              interested in real estate but have no clue how or where to begin.
+              Rock The Real Estate is here to solve that dilemma through
+              providing information, tools and resources that speak directly to
+              our audience. We are beginning with a weekly newsletter but will
+              be adding courses, e-books, mentoring services and a proprietary
+              starter kit in the near future.
+            </p>
+            <p class="p">
+              Our mission is to provide our subscribers with solid and tested
+              information, strategies, and win-win partnerships, that will allow
+              them to <span class="bold-txt">take action</span> and succeed in
+              today's real estate market.
+            </p>
+          </div>
           <div id="bio-section">
-            <h2>Our Team</h2>
-            <div class="bio" id="lena-bio">
-              <img src="#" alt="" />
-              <aside></aside>
-              <h3 class="bio-name">Lena Claybon</h3>
-              <h3 class="bio-title">Founder / Ceo</h3>
-            </div>
-            <div class="bio" id="kayela-bio">
-              <img src="#" alt="" />
-              <aside></aside>
-              <h3 class="bio-name">Kayela Ceron</h3>
-              <h3 class="bio-title">
-                Senior Partner / Head of Marketing & Distibution
-              </h3>
-            </div>
-            <div class="bio" id="jill-bio">
-              <img src="#" alt="" />
-              <aside></aside>
-              <h3 class="bio-name">Jill Jackson-Jenkins</h3>
-              <h3 class="bio-title">Chief Operating Officer</h3>
+            <h2 class="h2 textcenter">Our Team</h2>
+            <div id="bio-container" class="grid-parent3">
+              <div class="bio" id="lena-bio">
+                <img src="#" alt="" />
+                <!-- <aside></aside> -->
+                <h3 class="bio-name">Lena Claybon</h3>
+                <h3 class="bio-title">Founder / Ceo</h3>
+              </div>
+              <div class="bio" id="Kayela-bio">
+                <img src="#" alt="" />
+                <!-- <aside></aside> -->
+                <h3 class="bio-name">Kayela Ceron</h3>
+                <h3 class="bio-title">Senior Partner</h3>
+              </div>
+              <div class="bio" id="jill-bio">
+                <img src="#" alt="" />
+                <!-- <aside></aside> -->
+                <h3 class="bio-name">Jill Jackson-Jenkins</h3>
+                <h3 class="bio-title">Chief Operating Officer</h3>
+              </div>
             </div>
             <div id="book-call-section"></div>
           </div>
