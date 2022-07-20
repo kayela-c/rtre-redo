@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kayela-c/rtre-redo/issues"
   },
-  "homepage": "https://github.com/kayela-c/rtre-redo#readme"
+  "homepage": "https://github.com/kayela-c/rtre-redo#readme",
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  }
 }
