@@ -89,50 +89,6 @@ select {
   }
 }
 
-.vh100 {
-  height: 100vh;
-  
-}
-
-.w-100per{
-  width: 100%;
-}
-.margin-x {
-  margin: 0 2rem;
-}
-
-.margin-y {
-  margin: 2rem 0;
-}
-
-.margin-t {
-  margin-top: 2rem;
-}
-
-.margin-b {
-  margin-bottom: 2rem;
-}
-
-.margin-x-auto {
-  margin: 0 auto;
-}
-
-.padding-x {
-  padding: 0 2rem;
-}
-
-.padding {
-  padding: 2rem;
-}
-
-.padding-t {
-padding-top: 2rem;
-}
-
-.padding-b {
-  padding-bottom: 2rem;
-}
-
 .textcenter {
   text-align: center;
 }
