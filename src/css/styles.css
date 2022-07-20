@@ -1,14 +1,3 @@
-:root {
-
-
-  --gray2: #717A80;
-  --light: #eee;
-  --dark: #2c2c2c;
-  --red: #DC3545;
-  --white: #fff;
-  --grayBlue: #303841;
-}
-
 
 
 /* Box sizing rules */
@@ -93,27 +82,26 @@ select {
   text-align: center;
 }
 
-.button {
-  color: var(--white);
-  background-color: var(--red);
-  
-}
 
 .flex {
     display: flex;
     list-style-type: none;
 }
 
-.nav-container {
-
-    background-color: #eee;
-}
 
 .logo {
   height: 100px;
 }
-.nav-link {
-    padding: 1rem;
+
+.icon {
+  font-size: 5rem;
+  margin: auto 0;
+}
+
+.card-t {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  padding: 0 1rem;
 }
 
 
@@ -153,79 +141,30 @@ select {
 }
 
 
-#hero-section {
-  height: auto;
-}
-
-
-#text-container {
-  color: var(--white); 
-
-}
-
 .form-container {
   max-width: 400px;
   min-width: 300px;
-  background-color: var(--white);
-  margin-bottom: 1rem;
+  border-radius: 5px;
 }
 
-.h3 {
-  align-self: center;
-  margin: 1rem 0;
-}
-
-label {
-  display: block;
-  margin: .5rem 0;
-}
-
-  
 
 #benefits {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--light)
 }
 
 .info-card {
   min-height: 300px;
   max-width: 275px;
-  color: var(--dark);
-  background-color: var(--white);
   padding: 1rem;
-  border-radius: 5px; 
+  text-align: center;
 }
-
-.icon {
-  font-size: 5rem;
-}
-
 
 #benefits-text {
   max-width: 700px;
-    color: var(--dark);
 }
 
-#news-form-section {
-  margin: auto;
-  max-height: 200px; 
 
-}
-#news-form-bg {
-    margin: auto;
-}
 
-#tools {
-  background-color: var(--light);
-}
 
-.banner {
-  background-color: var(--grayBlue);
-  color: var(--white);
-}
-
-#about-us-section {
-  background-color: var(--light);
-}
