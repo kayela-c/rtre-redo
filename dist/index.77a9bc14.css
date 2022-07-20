@@ -115,4 +115,19 @@ input, button, textarea, select {
   max-width: 700px;
 }
 
+.bio-name, .bio-title {
+  margin: 1.5rem 0;
+}
+
+.bio-img {
+  object-fit: cover;
+  object-position: 100% 10%;
+}
+
+.bio {
+  min-height: 300px;
+  max-height: 4000px;
+  width: 200px;
+}
+
 /*# sourceMappingURL=index.77a9bc14.css.map */
