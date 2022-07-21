@@ -157,6 +157,8 @@ select {
   min-height: 300px;
   max-width: 275px;
   padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   text-align: center;
 }
 
@@ -164,24 +166,22 @@ select {
   max-width: 700px;
 }
 
-.bio-name,
-.bio-title {
-  margin: 1.5rem 0;
-}
+
 
 .bio-img {
   width: 14rem;
-  height: 16rem;
+  height: 14rem;
   object-fit: cover;
   object-position: 100% 10%;
-  border-radius: 15px 15px 0 0;
+  border-radius: 50%;
+  /* border-radius: 15px 15px 0 0; */
 }
 
 .bio {
-  width: 14rem;
-  height: 25rem;
-  background-color: aqua;
-  border-radius: 15px;
+  width: 15rem;
+  height: 26rem;
+  /* border-radius: 15px; */
+
 }
 .txt {
 margin: 1rem 0 1rem 1rem;
@@ -189,4 +189,22 @@ margin: 1rem 0 1rem 1rem;
 .bio-txt {
   padding: 0 1rem;
   overflow: hidden;
+}
+
+#hero-section {
+  z-index: -2;
+}
+
+#overlay {
+  z-index: -1;
+}
+#content-container {
+  z-index: 2;
+}
+
+.divider {
+  color: #dc3545;
+  height: 2rem;
+  width: 2rem;
+  z-index: 2;
 }
