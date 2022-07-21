@@ -37,7 +37,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  font-family: "Eb Garamond", 'Times New Roman', Times, serif;
+  font-family: "Eb Garamond", 'Georgia', Times, serif;
   background-color: var(--grayBlue); 
 }
 
