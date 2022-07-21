@@ -18,9 +18,11 @@
     <!-- Wrapper of all web content -->
     <div id="wrapper-home" class="">
 
+
+
         <!-- Navbar -->
- 
-        <nav class="navbar navbar-light bg-light navbar-expand-md sticky-top">
+
+        <nav class="navbar navbar-light bg-light sticky-top navbar-expand-md">
           <div class="container-fluid">
             <a class="navbar-brand" href="#" >
               <img 
@@ -30,69 +32,84 @@
             <button 
             class="navbar-toggler"
             type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav me-2 mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                  <a href="#" 
-                  class="nav-link dropdown-toggle active" 
-                  aria-current="page"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false">Start Here
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">Step-By-Step
+            <div class="offcanvas offcanvas-start" tabindex="1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item dropdown">
+                    <a href="#" 
+                    class="nav-link dropdown-toggle active" 
+                    aria-current="page"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">Start Here
                   </a>
-                </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Blog</a>
+  
+                
+  
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Step-By-Step
+                    </a>
+                  </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Blog</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Newsletters</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Inspiration Corner
+                    </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Newsletters</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Inspiration Corner
+                    <a class="dropdown-item" href="#">Make Extra Income 
                   </a>
                 </li>
-                <li>
-                  <a class="dropdown-item" href="#">Make Extra Income 
-                </a>
-              </li>
+                  </ul>
+        
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link active">Facebook Group</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link active">Book Free Call</a>
+                  </li>
                 </ul>
-      
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link active">Facebook Group</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link active">Book Free Call</a>
-                </li>
-              </ul>
-              <!-- Search and Profile button -->
-                <form action="" class="d-flex" role="search">
-                  <input 
-                  placeholder="type here..."
-                  aria-label="Search"
-                  type="search" 
-                  class="form control me-2">
-                  <button 
-                  class="btn btn-sm btn-outline-danger"
-                  type="submit"
-                  >Search</button>
-                </form>
+                 <!-- Search and Profile button -->
+                  <form action="" class="d-flex" role="search">
+                    <input 
+                    placeholder="type here..."
+                    aria-label="Search"
+                    type="search" 
+                    class="form control me-2">
+                    <button 
+                    class="btn btn-sm btn-outline-danger"
+                    type="submit"
+                    >Search</button>
+                  </form>
+              </div>
             </div>
             </div>
-          </nav>
+          </nav> 
           
+
+          <!--  Hero section  -->
 
       <section id="hero-section" class="grid-parent2 bg-dark">
         <!-- Hero Secton -->
