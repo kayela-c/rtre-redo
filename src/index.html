@@ -318,11 +318,18 @@
       <!-- Our Partners -->
 
       <!-- About us Section -->
-      <h2 class="textcenter banner my-4 display-1 bg-dark py-5 text-light">
-        About Us
-      </h2>
+      <section class="textcenter banner my-4 bg-dark py-5 text-light">
+        <h2 class="display-1">
+          About Us
+        </h2>
+      </section>
+
       <section id="about-us-section" class="m-4">
-        <div id="about-us-container">
+
+          <!-- container for section -->
+        <div id="about-us-container" class="grid-parent2">
+
+            <!-- container for text -->
           <div id="blurb" class="px-5 pt-4">
             <h2 class="mb-4 display-5">
               Rock The Real Estate Provides The Roadmap To Get You Started In
@@ -346,18 +353,28 @@
               today's real estate market.
             </p>
           </div>
-        </section>
-        <div id="bio-section">
+
+          <!-- Container for bio -->
+
+          <div class="d-flex-column">
+            <!-- bio section heading -->
             <h2 class="display-1 py-5 my-4 textcenter">
-              Our Team
-            </h2>
-            <div class="divider"></div>
+            Our Team
+          </h2>
+          <!-- deco divider -->
+          <div class="divider"></div>
+  
+          <!-- cards div -->
             <div class="grid-parent3">
-              <div class="bio" id="lena-bio">
-                <img class="bio-img" src="img/Lena-Pub-Pic-cropped-225x300.jpeg" alt="" />
-                <div class="">
-                  <p class="txt display-6 text-uppercase text-dark fw-bold">Lena Claybon</p>
-                  <p class="txt text-uppercase text-secondary">Founder / Ceo</p>
+  
+            <!-- first card -->
+            <div class="card" style="width: 18rem;">
+              <img src="img/Lena-Pub-Pic-cropped-225x300.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text display-6 text-uppercase text-dark fw-bold">        Lena Claybon
+              </p>
+              <p class="txt text-uppercase text-secondary">Founder / Ceo</p>
                   <!-- <p class="bio-txt">
                     Lena is a former television
                     writer/producer-turned-real-estate-wholesaler/rehabber/landlord.
@@ -372,70 +389,78 @@
                     her rental portfolio and building the Rock The Real Estate
                     brand.
                   </p> -->
-                </div>
+                <a href="#" class="btn btn-outline-danger">Read More</a>
               </div>
-              <div class="bio" id="Kayela-bio">
-                <img class="bio-img" src="img/kayela.jpeg" alt="" />
-                <div class="">
-                  <p class="txt display-6 text-uppercase text-dark fw-bold">Kayela Ceron</p>
-                  <p class="txt text-uppercase text-secondary">Senior Partner</p>
+              </div>
+              <!-- second card -->
+              <div class="card" style="width: 18rem;">
+              <img src="img/kayela.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text display-6 text-uppercase text-dark fw-bold"> Kayela Ceron
+              </p>
+              <p class="txt text-uppercase text-secondary">Senior Partner</p>
                   <!-- <p class="bio-txt">
-                    Kayela began real estate out of the desire to leave the
-                    cycle of living paycheck to paycheck with nothing to leave
-                    to her children. In 2014, she started wholesaling with a
-                    mentor and continued her education in real estate by
-                    obtaining her real estate license in 2016. As a Realtor she
-                    listed and sold single family homes in the Houston area.
-                    Because of her passion to help others succeed, in 2020 she
-                    joined forces with Lena Claybon to help build an educational
-                    platform to help others pursue their desire to invest in
-                    real estate.
-                  </p> -->
-                </div>
-              </div>
-              <div class="bio" id="jill-bio">
-                <img class="bio-img" src="img/jill.jpeg" alt="" />
-                <div class="">
-                  <p class="txt display-6 text-uppercase text-dark fw-bold">Jill Jackson-Jenkins</p>
-                  <p class="txt text-uppercase text-secondary">Chief Operating Officer</p>
-                  <p class="bio-txt-dv">
-                    <!-- <p class="bio-txt">
-                      Jill Jenkins, coming from a design and architecture
-                      background, is a visionary that has spent more than 10 years
-                      as a business strategist. She has developed programs for
-                      both the public and private sectors. Shehas spent 11 years
-                      as a board member and instructor for the Architecture
-                      Resource Center (ARC), an award-winning non-proﬁt
-                      organization dedicated to teaching children about
-                      architecture and city planning in their community. She is
-                      also a Managing Director, Associate Publisher at Premier
-                      Publishing. Jill served two terms as an elected member of
-                      her city council where she oversaw an operational budget of
-                      $110 million. As a city councilwoman, she was chair of the
-                      Public Health & Safety committee, which monitored activities
-                      within the Police, Fire, and Food Safety Departments. She
-                      was also known for implementing a Small Business Development
-                      program for local entrepreneurs as well as aiding the
-                      transformation of an ailing public school district, which is
-                      now ranked 3rd in the region. For her work, Ms. Jenkins was
-                      recognized and awarded as one of Connecticut&sbquo;s
-                      &sbquo;100 Women of Color&sbquo;. She holds a Master of
-                      Business Administration with a focus on Innovative Practices
-                      & Entrepreneurial Growth Strategies from Bay Path University
-                      in Massachusetts and a Bachelor of Science in Design &
-                      Resource Management from the University of Connecticut.
-                    </p> -->
-
-                  </p>
-                </div>
+                  Kayela began real estate out of the desire to leave the
+                  cycle of living paycheck to paycheck with nothing to leave
+                  to her children. In 2014, she started wholesaling with a
+                  mentor and continued her education in real estate by
+                  obtaining her real estate license in 2016. As a Realtor she
+                  listed and sold single family homes in the Houston area.
+                  Because of her passion to help others succeed, in 2020 she
+                  joined forces with Lena Claybon to help build an educational
+                  platform to help others pursue their desire to invest in
+                  real estate.
+                </p> -->
+                <a href="#" class="btn btn-outline-danger">Read More</a>
               </div>
             </div>
-            <div id="book-call-section"></div>
+            <!-- third card -->
+            <div class="card" style="width: 18rem;">
+              <img src="img/jill.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text display-6 text-uppercase text-dark fw-bold">       Jill Jackson-Jenkins
+              </p>
+              <p class="txt text-uppercase text-secondary">Chief Operating Officer</p>
+                  <!-- <p class="bio-txt">
+              Jill Jenkins, coming from a design and architecture
+              background, is a visionary that has spent more than 10 years
+              as a business strategist. She has developed programs for
+              both the public and private sectors. Shehas spent 11 years
+              as a board member and instructor for the Architecture
+              Resource Center (ARC), an award-winning non-proﬁt
+              organization dedicated to teaching children about
+              architecture and city planning in their community. She is
+              also a Managing Director, Associate Publisher at Premier
+              Publishing. Jill served two terms as an elected member of
+              her city council where she oversaw an operational budget of
+              $110 million. As a city councilwoman, she was chair of the
+              Public Health & Safety committee, which monitored activities
+              within the Police, Fire, and Food Safety Departments. She
+              was also known for implementing a Small Business Development
+              program for local entrepreneurs as well as aiding the
+              transformation of an ailing public school district, which is
+              now ranked 3rd in the region. For her work, Ms. Jenkins was
+              recognized and awarded as one of Connecticut&sbquo;s
+              &sbquo;100 Women of Color&sbquo;. She holds a Master of
+              Business Administration with a focus on Innovative Practices
+              & Entrepreneurial Growth Strategies from Bay Path University
+              in Massachusetts and a Bachelor of Science in Design &
+              Resource Management from the University of Connecticut.
+            </p>-->
+                <a href="#" class="btn btn-outline-danger">Read More</a>
+              </div>
+            </div>
+            </div>
           </div>
-        </div>
-      
+          </div>
+
+        </section>
+
 
         
+      
       </div>
       <footer
         id="footer"

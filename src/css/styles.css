@@ -118,6 +118,12 @@ select {
 
   }
 }
+@media (min-width: 91.25em) {
+  .grid-parent2-b {
+    grid-template-columns: 1fr 1fr;
+
+  }
+}
 
 .grid-parent2 {
   display: grid;
