@@ -118,7 +118,7 @@ select {
 
   }
 }
-@media (min-width: 91.25em) {
+@media (min-width: 950px) {
   .grid-parent2-b {
     grid-template-columns: 1fr 1fr;
 
