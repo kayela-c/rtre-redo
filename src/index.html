@@ -23,7 +23,7 @@
 
         <!-- Navbar -->
 
-        <nav class="navbar navbar-light bg-light sticky-top navbar-expand-md nav-justified">
+        <nav class="navbar bg-light sticky-top navbar-expand-md nav-justified">
           <div class="container-fluid">
             <a class="navbar-brand" href="#" >
               <img 
@@ -93,22 +93,23 @@
                   <li class="nav-item">
                     <a href="https://www.facebook.com/groups/rtre1/" class="nav-link active" target="_blank">Facebook Group</a>
                   </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link active">Book Free Call</a>
-                  </li>
                 </ul>
-                 <!-- Search and Profile button -->
+                <!-- Search and Profile button -->
+                <div class="d-flex">
                   <form action="" class="d-flex" role="search">
                     <input 
                     placeholder="type here..."
                     aria-label="Search"
                     type="search" 
                     class="form control me-2">
-                    <button 
-                    class="btn btn-sm btn-outline-danger"
-                    type="submit"
-                    >Search</button>
+                  
                   </form>
+                  <!-- call to action -->
+                  <button class="btn btn-sm btn-danger mx-3">
+                    <i class="mx-2 fa-solid fa-phone"></i>Book Free Call 
+                  </button>
+
+                </div>
               </div>
             </div>
             </div>
@@ -119,26 +120,25 @@
 
       <section 
         id="hero-section" 
-        style="background-image: url(/src/img/bird-s-eye-view-of-three-houses-1546166.jpg); height: 100%;" 
         class="bg-black position-relative">
         <!-- Hero Secton -->
         <div id="overlay" class="position-absolute bg-black bg-opacity-50" style="height: 100%; width: 100%"></div>
-        <div id="content-container" class="grid-parent2">
-          <div id="text-container" class="grid-child text-light px-4 mx-3">
-            <h1 id="hero-header" class="display-3 my-5">
+        <div id="content-container" class="row">
+          <div id="text-container" class="col text-light px-4 m-5">
+            <h1 id="hero-header" class="display-3 my-4 ms-4">
               The Roadmap To Get you Started in Real Estate
             </h1>
-            <p class="lead">
+            <p class="lead ms-4">
               Our mission is to provide our subscribers with solid and tested
               information, strategies, and win-win partnerships, that will allow
-              them to <span class="">take action</span> and succeed in today's
+              them to <span class="fw-bold text-uppercase">take action</span> and succeed in today's
               real estate market.
             </p>
           </div>
 
-          <div class="form-container bg-light px-5 my-5 mx-3">
+          <div class="col form-container bg-light px-5 mx-5 my-5 d-flex-column" style="min-width: 370px; max-width: 450px; max-height: 530px;">
             <h3 class="textcenter display-6 my-4">Create a free account</h3>
-            <div id="signup-form-bg">
+            <div id="signup-form-bg" class="">
               <form action="" class="">
                 <div class="mb-3 form-floating">
                   <input
@@ -149,7 +149,7 @@
                     required
                     class="form-control"
                   />
-                  <label class="" for="name" id="name-label">Full Name</label>
+                  <label class="text-secondary" for="name" id="name-label">Full Name</label>
                 </div>
   
                 <div class="mb-3 form-floating">
@@ -161,7 +161,7 @@
                     required
                     class="form-control"
                   />
-                  <label class="" for="email-input" id="email-label">Email</label>
+                  <label class="text-secondary" for="email-input" id="email-label">Email</label>
                 </div>
   
                 <div class="mb-3 form-floating">
@@ -173,7 +173,7 @@
                     class="form-control"
                     required
                   />
-                  <label class="" for="password-input" id="password-label"
+                  <label class="text-secondary" for="password-input" id="password-label"
                     >Create a Password</label
                   >
                 </div>
@@ -267,7 +267,7 @@
                 class="form-control"
                 required
               />
-              <label for="name" id="name-label">First Name</label>
+              <label for="name" id="name-label" class="text-secondary">First Name</label>
             </div>
             <div class="mb-4 mx-4 form-floating">
               <input
@@ -278,7 +278,7 @@
                 class="form-control"
                 required
               />
-              <label for="email-input" id="email-label">Email</label>
+              <label for="email-input" id="email-label" class="text-secondary">Email</label>
             </div>
             <div class="mb-4 mx-4">
               <p class="card-text">
@@ -323,7 +323,7 @@
       </h2>
       <section id="about-us-section" class="m-4">
         <div id="about-us-container">
-          <div id="blurb">
+          <div id="blurb" class="px-5 pt-4">
             <h2 class="mb-4 display-5">
               Rock The Real Estate Provides The Roadmap To Get You Started In
               Real Estate
