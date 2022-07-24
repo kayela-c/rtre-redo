@@ -1,9 +1,9 @@
 
 
-let cookieModal = document.getElementById('cookie-consent-modal');
-let acceptCookieBtn = document.getElementById('accept');
+let cookieModal = document.getElementById('cookies');
+let acceptBtn = document.getElementById('accept-btn');
 
-acceptCookieBtn.addEventListener('click', function(){
+acceptBtn.addEventListener('click', function(){
   cookieModal.classList.remove('active')
   localStorage.setItem('cookieAccepted', 'yes')
 })
