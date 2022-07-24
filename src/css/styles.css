@@ -214,3 +214,10 @@ margin: 1rem 0 1rem 1rem;
   width: 2rem;
   z-index: 2;
 }
+
+#cookie-consent-modal {
+  height: 100vh;
+  width: 100vw;
+  z-index: 999;
+  display: none;
+}
